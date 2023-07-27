@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-@Repository
+//@Repository  // 스프링빈으로 등록되지 않도록 하려고.
 public class ClubMapStore implements ClubStore {
 	//
 	private Map<String, TravelClub> clubMap;
